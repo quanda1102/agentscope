@@ -21,6 +21,7 @@ python example.py
 # Chạy lần đầu ở local machine
 git remote add upstream https://github.com/agentscope-ai/agentscope.git
 
+git fetch upstream
 git checkout <your_branch>
 
 # Kéo code thẳng từ remote về branch
