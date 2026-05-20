@@ -16,7 +16,16 @@ pip install -e .
 python example.py 
 ```
 
+## 2. Nếu cần Pull code mới từ Repo gốc
+```bash
+# Chạy lần đầu ở local machine
+git remote add upstream https://github.com/agentscope-ai/agentscope.git
 
+git checkout <your_branch>
+
+# Kéo code thẳng từ remote về branch
+git merge upstream/main
+```
 
 
 
